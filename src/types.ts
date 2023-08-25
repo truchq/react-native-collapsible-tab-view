@@ -227,7 +227,7 @@ export type CollapsibleStyle = {
   style: { width: number }
   contentContainerStyle: {
     minHeight: number
-    paddingTop: number
+    marginTop: number
   }
   progressViewOffset: number
 }
