@@ -123,7 +123,7 @@ function MasonryFlashListImpl<R>(
 
   const memoContentContainerStyle = React.useMemo(
     () => ({
-      marginTop: contentContainerStyle.marginTop,
+      paddingTop: contentContainerStyle.marginTop,
       ..._contentContainerStyle,
     }),
     [_contentContainerStyle, contentContainerStyle.marginTop]
